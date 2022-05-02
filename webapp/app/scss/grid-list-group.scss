@@ -1,0 +1,51 @@
+.grid ul.list-group {
+}
+
+.grid ul.list-group li,
+.grid ul.list-group li a {
+  font-family: 'Ubuntu', sans-serif;
+  font-weight: 200;
+  font-size: 16px;
+  color: #9FACBD;
+}
+
+.grid ul.list-group li a span.type {
+  font-family: 'Ubuntu', sans-serif;
+  font-weight: 500;
+  font-size: 9px;
+  border-radius: 3px;
+  background: #9FACBD;
+  color: white;
+  margin-right: 10px;
+  text-transform: uppercase;
+  padding: 3px;
+}
+
+.grid ul.list-group li span.completions {
+    background: white;
+    position: relative;
+    display: inline-block;
+    height: 3px;
+    width: 150px;
+    top: 10px;
+    left: 10px;
+    overflow: hidden;
+    float: right;
+}
+
+.grid ul.list-group li span.completions .active {
+    background: #0AA3E0;
+    position: absolute;
+    height: 3px;
+    left: 0px;
+    top: 0px;
+}
+
+.grid ul.list-group li .badge {
+  color: #E11571;
+  background: #ededed;
+  font-size: 10px;
+  padding-left: 10px;
+  padding-right: 10px;
+  float: right;
+}

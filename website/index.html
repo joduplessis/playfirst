@@ -1,0 +1,465 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <meta name="author" content="name">
+    <meta name="description" content="description here">
+    <meta name="keywords" content="keywords,here">
+
+    <title>Build. Play. Learn.</title>
+
+    <!-- Favourite icon -->
+    <link rel="shortcut icon" href="favicon.png" type="image/png" />
+
+    <!-- Google fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Roboto+Slab:100,300,400,700" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Ubuntu:300,300i,400,400i,500,500i,700,700i" rel="stylesheet">
+
+    <!-- Jquery -->
+    <script src="bower_components/jquery/dist/jquery.min.js"></script>
+
+    <!-- Tather -->
+    <link href="bower_components/tether/dist/css/tether.min.css" rel="stylesheet">
+    <script src="bower_components/tether/dist/js/tether.min.js"></script>
+
+    <!-- Bootstrap -->
+    <link href="bower_components/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet">
+    <script src="bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
+
+    <!-- FlexSlider -->
+    <link href="bower_components/flexslider/flexslider.css" rel="stylesheet">
+    <script src="bower_components/flexslider/jquery.flexslider.js"></script>
+
+    <!-- Custom -->
+    <link href="custom_components/styles.css" rel="stylesheet" type="text/css" />
+    <script src="custom_components/scripts.js"></script>
+
+    <!-- FontAwesome -->
+    <link href="bower_components/font-awesome/css/font-awesome.css" rel="stylesheet">
+  </head>
+  <body>
+    <nav class="navbar navbar-toggleable-md navbar-light bg-faded" id="home">
+        <a class="navbar-brand" href="#"><a href="#" class="logo"><img src="images/icon.png" /> <span><strong>play</strong>first </span></a></a>
+        <ul class="nav navbar-nav mr-auto">
+        </ul>
+        <ul class="nav navbar-nav">
+          <li class="nav-item pr-10">
+            <a class="nav-link" href="#" onclick="javascript:smoothScroll('home')">Home</a>
+          </li>
+          <!--
+          <li class="nav-item pr-10">
+            <a class="nav-link" href="#" onclick="javascript:smoothScroll('about')">About</a>
+          </li>
+      	-->
+          <li class="nav-item pr-10">
+            <a class="nav-link dark" href="#" onclick="javascript:smoothScroll('platform')">Playfirst Platform</a>
+          </li>
+          <!--
+          <li class="nav-item pr-10">
+            <a class="nav-link" href="#" onclick="javascript:smoothScroll('work')">Work</a>
+          </li>
+          -->
+          <li class="nav-item pr-10">
+            <a class="nav-link" href="#" onclick="javascript:smoothScroll('contact')">Contact</a>
+          </li>
+        </ul>
+    </nav>
+
+    <div class="jumbotron jumbotron-fluid mb-0">
+
+      <div class="video-overlay"></div>
+      <div class="video-container">
+        <video playsinline autoplay muted loop>
+          <source src="video/Gameplay.webm" type="video/webm">
+          <source src="video/Gameplay.ogv" type="video/ogv">
+          <source src="video/Gameplay.mp4" type="video/mp4">
+        </video>
+      </div>
+
+      <div class="container content">
+        <div class="col-1"></div>
+        <div class="col-6 mt-100 mb-100">
+          <h1>Deliver intuitive learning experiences wrapped in an immersive game world.</h1>
+          <h2 class="mt-20">You can focus on the content, instead of jumping over the technical hurdles.</h2>
+          <button class="mt-20" onclick="javascript:smoothScroll('platform')">Read more</button>
+        </div>
+        <div class="col-5"></div>
+      </div>
+
+    </div>
+
+    <!--
+
+    <div class="container-fluid" id="about">
+      
+      <div class="row dark pb-100">
+        <div class="col-3 text-center"></div>
+        <div class="col-6 text-center">
+          <h1 class="mt-100">About</h1>
+          <h2>
+          	Playfirst is a platform that makes it "easy as pie" to build games focused on educating.
+          </h2>
+          <p>
+            Some of the brands we've collabroted with include Dimension Data, Liberty Life, Trainiac and SAB, among others.
+            We've also engineered a platform for delivering compelling and engaging learning content with ease.<br/><br/>
+            <a href="#" onclick="javascript:smoothScroll('platform')"><i>Click here</i></a> to read more about Playfirst.
+          </p>
+        </div>
+        <div class="col-3 text-center"></div>
+      </div>
+    </div>
+-->
+
+
+    <div class="container-fluid" id="platform">
+      <!-- How it works -->
+      <div class="row">
+        <div class="col-12 text-center">
+          <h1 class="mt-100">Playfirst Platform <sup>Beta</sup></h1>
+          <h2 class="mb-50">
+          	Playfirst is a platform that makes it "easy as pie" to build games focused on educating.<br/>
+            By transforming the learning experience from the inside out, learners have <br/>
+            an oppurtunity to better understand the material.
+          </h2>
+        </div>
+      </div>
+
+      <div class="row" style="border-bottom: 1px solid #EFEFEF;">
+        <div class="col-3 text-center"></div>
+        <div class="col-2 text-center">
+          <span class="fa fa-book mb-20"></span>
+          <h3 class="mb-20">Create content using the Playfirst learning management system</h3>
+          <h5 class="mb-100">Use familiar, easy to use, tools to manage almost every part of the game world & learning material.</h5>
+        </div>
+        <div class="col-2 text-center">
+          <span class="fa fa-gamepad mb-20"></span>
+          <h3 class="mb-20">Construct a virtual "home" world & plug learning content directly into objects</h3>
+          <h5 class="mb-100">Enable learning transformation by engaging content in a fresh way inside the Playfirst PLAY game world.</h5>
+        </div>
+        <div class="col-2 text-center">
+          <span class="fa fa-bar-chart mb-20"></span>
+          <h3 class="mb-20">Enable learners to build their own cities & reap the rewards of learning</h3>
+          <h5 class="mb-100">Learners have the opportunity grow their own world as they earn points, cultivating a rewarding & fun learning experience.</h5>
+        </div>
+        <div class="col-3 text-center"></div>
+      </div>
+
+      <!-- Web -->
+      <div class="container-fluid">
+        <div class="row mt-100">
+
+          <div class="col-6 text-left pl-50 pt-0">
+            <h1 class="smaller">"Easy as pie" content management</h1>
+            <h2 class="mb-40">Use our intuitive Playfirst web application to easily create & manage learning content and also track learner engagement levels.</h2>
+            <div class="row">
+                <div class="col-1">
+                    <span class="fa fa-thumbs-up"></span>
+                </div>
+                <div class="col-11">
+                    <h3>Easy to use</h3>
+                    <p>Manage learning content with an intuitively designed web application.</p>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-1">
+                    <span class="fa fa-area-chart"></span>
+                </div>
+                <div class="col-11">
+                    <h3>Track, analyze & review</h3>
+                    <p>Get immediate visual feedback on how learners are engaging with the content.</p>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-1">
+                    <span class="fa fa-plug"></span>
+                </div>
+                <div class="col-11">
+                    <h3>Plug & play</h3>
+                    <p>Plays nicely with almost any IT eco system, to better serve the existing users.</p>
+                </div>
+            </div>
+            <button class="mt-20" onclick="javascript:smoothScroll('plug-and-play')">Read more</button>
+          </div>
+
+          <div class="col-6 pr-50">
+            <div class="flexslider">
+              <ul class="slides">
+                  <li><img src="images/imac/2.jpg" /><p class="flex-caption text-center">Dashboard</p></li>
+                  <li><img src="images/imac/3.jpg" /><p class="flex-caption text-center">Learning paths</p></li>
+                  <li><img src="images/imac/4.jpg" /><p class="flex-caption text-center">Learning path exercises</p></li>
+                  <li><img src="images/imac/5.jpg" /><p class="flex-caption text-center">Learning path mixed content exercise</p></li>
+                  <li><img src="images/imac/6.jpg" /><p class="flex-caption text-center">Learning path multiple choice exercise</p></li>
+                  <li><img src="images/imac/7.jpg" /><p class="flex-caption text-center">Learning path video exercise</p></li>
+                  <li><img src="images/imac/8.jpg" /><p class="flex-caption text-center">Learning path image slideshow exercise</p></li>
+                  <li><img src="images/imac/9.jpg" /><p class="flex-caption text-center">Learning path mini-game exercise</p></li>
+                  <li><img src="images/imac/10.jpg" /><p class="flex-caption text-center">Badges</p></li>
+                  <li><img src="images/imac/11.jpg" /><p class="flex-caption text-center">Badge detail</p></li>
+                  <li><img src="images/imac/12.jpg" /><p class="flex-caption text-center">Players</p></li>
+                  <li><img src="images/imac/13.jpg" /><p class="flex-caption text-center">Worlds</p></li>
+                  <li><img src="images/imac/14.jpg" /><p class="flex-caption text-center">World detail</p></li>
+                  <li><img src="images/imac/15.jpg" /><p class="flex-caption text-center">Game assets</p></li>
+                  <li><img src="images/imac/16.jpg" /><p class="flex-caption text-center">Game asset detail</p></li>
+              </ul>
+            </div>
+          </div>
+
+        </div>
+      </div>
+
+      <!-- Game -->
+      <div class="row mt-50">
+        <div class="col-6 pl-50">
+          <div class="flexslider">
+            <ul class="slides">
+                <li><img src="images/ipad/2.png" /><p class="flex-caption text-center">Choose play name & character</p></li>
+                <li><img src="images/ipad/3.png" /><p class="flex-caption text-center">Scenery</p></li>
+                <li><img src="images/ipad/4.png" /><p class="flex-caption text-center">Mini game</p></li>
+                <li><img src="images/ipad/5.png" /><p class="flex-caption text-center">Leaderboard</p></li>
+                <li><img src="images/ipad/6.png" /><p class="flex-caption text-center">Social feed</p></li>
+                <li><img src="images/ipad/7.png" /><p class="flex-caption text-center">Course exercises</p></li>
+                <li><img src="images/ipad/8.png" /><p class="flex-caption text-center">Courses</p></li>
+                <li><img src="images/ipad/9.png" /><p class="flex-caption text-center">Add building</p></li>
+                <li><img src="images/ipad/10.png" /><p class="flex-caption text-center">Attach an exercise</p></li>
+                <li><img src="images/ipad/11.png" /><p class="flex-caption text-center">Attach a world portal</p></li>
+                <li><img src="images/ipad/12.png" /><p class="flex-caption text-center">Starting point</p></li>
+                <li><img src="images/ipad/13.png" /><p class="flex-caption text-center">Exercise popup</p></li>
+                <li><img src="images/ipad/14.png" /><p class="flex-caption text-center">Mutliple choice activity/exercise</p></li>
+                <li><img src="images/ipad/15.png" /><p class="flex-caption text-center">Image slideshow activity/exercise</p></li>
+                <li><img src="images/ipad/16.png" /><p class="flex-caption text-center">Rich text activity/exercise</p></li>
+                <li><img src="images/ipad/17.png" /><p class="flex-caption text-center">Video activity/exercise</p></li>
+                <li><img src="images/ipad/18.png" /><p class="flex-caption text-center">Building selection</p></li>
+                <li><img src="images/ipad/19.png" /><p class="flex-caption text-center">Achievements</p></li>
+            </ul>
+          </div>
+        </div>
+        <div class="col-6 text-left pl-50 pr-50" id="plug-and-play">
+          <h1 class="smaller">Learning transformation</h1>
+          <h2 class="mb-40">Construct courses in the Playfirst game world and empower learners to learn in a unique way.</h2>
+          <div class="row">
+              <div class="col-1">
+                  <span class="fa fa-gamepad"></span>
+              </div>
+              <div class="col-11">
+                  <h3>Better learning</h3>
+                  <p>Put theory into practice with in-game activities, exercises & mini-games.</p>
+              </div>
+          </div>
+          <div class="row">
+              <div class="col-1">
+                  <span class="fa fa-smile-o"></span>
+              </div>
+              <div class="col-11">
+                  <h3>Social interaction</h3>
+                  <p>Empower players to collaborate with friends on completing exercises.</p>
+              </div>
+          </div>
+          <div class="row">
+            <div class="col-1">
+                  <span class="fa fa-mobile"></span>
+              </div>
+              <div class="col-11">
+                  <h3>Play everywhere</h3>
+                  <p>Learn on any device, at any time and in any place.</p>
+              </div>
+          </div>
+          <button class="mt-20" onclick="javascript:smoothScroll('features')">Read more</button>
+        </div>
+      </div>
+
+      <!-- Features -->
+      <div class="row mt-100 mb-100" id="features" style="border-bottom: 1px solid #EFEFEF; border-top: 1px solid #EFEFEF;">
+        <div class="col-12 text-center">
+          <h1 class="mt-100">Playfirst Platform <sup>Beta</sup> nuts & bolts</h1>
+          <h2 class="mb-100">Some of the finer details about the Playfirst platform.</h2>
+        </div>
+      </div>
+
+      <div class="row mb-100">
+        <div class="col-3 text-center">
+          <span class="fa fa-book mb-10"></span>
+          <h4>Learning management</h4>
+          <p>Game authors are able to manage exercises and learning paths for players, without having to play the game. They can focus on delivering quality content.</p>
+        </div>
+
+        <div class="col-3 text-center">
+          <span class="fa fa-bar-chart mb-10"></span>
+          <h4>Analytics & tracking</h4>
+          <p>Everything is tracked so that game authors are able to see how players are interacting with their content. We believe learning should be collaborative.</p>
+        </div>
+
+        <div class="col-3 text-center">
+          <span class="fa fa-key mb-10"></span>
+          <h4>User roles & access rights</h4>
+          <p>Not all users are equal - administrators are able to manage users and empower them to focus only on specific areas of the experience.</p>
+        </div>
+
+        <div class="col-3 text-center">
+          <span class="fa fa-cog mb-10"></span>
+          <h4>Extensions</h4>
+          <p>Our thinking around 3rd party integrations carries over to extensions. Playfirst is straightforward and easily extended to cater for any need, whether it be new exercise types or a brand new feature altogether.</p>
+        </div>
+
+        <div class="col-3 text-center">
+          <span class="fa fa-cubes mb-10"></span>
+          <h4>PLAY framework <br/><sup class="fade-half">"Secret formula"</sup></h4>
+          <p>PLAY is an architecture and component library that let's us customise the playing experience easily and quickly - including RPG, SIM or strategy style gameplay.</p>
+        </div>
+
+        <div class="col-3 text-center">
+          <span class="fa fa-signal mb-10"></span>
+          <h4>Multiplayer <br/><sup class="fade-half">Alpha</sup></h4>
+          <p>Every game is better when it's played with friends. PLAY includes online multiplayer capabilities that enables players inhabit the game world in real time with other players.</p>
+        </div>
+
+        <div class="col-3 text-center">
+          <span class="fa fa-check mb-10"></span>
+          <h4>Traditional learning</h4>
+          <p>Activities offer educators a mechanism to add traditional learning exercises to the game. These activities can include multiple choice questions, video, images or rich text.</p>
+        </div>
+
+        <div class="col-3 text-center">
+          <span class="fa fa-bolt mb-10"></span>
+          <h4>Practical learning</h4>
+          <p>Game authors are able to round off theoretical knowledge with mini-games, giving the learner a much better understanding of what they are learning.</p>
+        </div>
+
+        <div class="col-3 text-center">
+          <span class="fa fa-shield mb-10"></span>
+          <h4>Achievements</h4>
+          <p>Reward players! Players are able to accumulate achievements for completing missions - which they can use for building their world or simply beating their friends.</p>
+        </div>
+
+        <div class="col-3 text-center">
+          <span class="fa fa-child mb-10"></span>
+          <h4>Leaderboard</h4>
+          <p>Players are able to keep track of how they're doing by viewing the Leaderboard. Some friendly competition can be great for incentivizing learning & content engagement.</p>
+        </div>
+
+        <div class="col-3 text-center">
+          <span class="fa fa-user mb-10"></span>
+          <h4>Social</h4>
+          <p>At it's heart Playfirst is a social learning experience. Players are able to "like" each other's units and also view a latest activity stream of other player interactions.</p>
+        </div>
+
+        <div class="col-3 text-center">
+          <span class="fa fa-medal mb-10"></span>
+          <span class="fa fa-lock mb-10"></span>
+          <h4>Missions & player paths</h4>
+          <p>Game authors are able to group activities & exercises and create learning paths for players, known in-game as missions. Missions can have pre-requisites, forcing the player think about playing tactics.</p>
+        </div>
+
+        <div class="col-3 text-center">
+          <span class="fa fa-car mb-10"></span>
+          <h4>Artificial Intelligence</h4>
+          <p>Playfirst utilise artifically intelligent objects that enable the game to come to life without requiring anything from the player or game author. <br/><br><i>The AI object library is currently being extended, companies will be notified as objects become available for use in-game</i>.</p>
+        </div>
+
+        <div class="col-3 text-center">
+          <span class="fa fa-android mb-10"></span> &nbsp;&nbsp;
+          <span class="fa fa-apple mb-10"></span> &nbsp;&nbsp;
+          <span class="fa fa-windows mb-10"></span>
+          <h4>Cross platform</h4>
+          <p>Playfirst PLAY uses Unity3D&trade; as a base engine. This enables the game to be published to a wide variety of devices seamlessly. This include Windows&trade;, MacOS&trade;, iOS&trade; and Android&trade; among others. <br/><br/><i>To see a full list of supported platforms, please <a href="https://unity3d.com/unity/multiplatform" target="_blank">click here</a></i></p>
+        </div>
+
+        <div class="col-3 text-center">
+          <span class="fa fa-comments mb-10"></span>
+          <h4>Real time in-game chat</h4>
+          <p>Empower users to collaborate with instructors & friends using real time in-game chat. Collaboration & communication is key.</p>
+        </div>
+
+        <div class="col-3 text-center">
+          <span class="fa fa-map-signs mb-10"></span>
+          <h4>Guided playing</h4>
+          <p>Playfirst has an in-game assistant you can leverage to deliver hints & guides to players to not leave them stranded. </p>
+        </div>
+
+        <div class="col-3 text-center">
+          <span class="fa fa-paint-brush mb-10"></span>
+          <h4>White labeling & customization</h4>
+          <p>Leverage all of the functionality with completely different game world & user interface aesthetics. Playfirst can be customized to be unique to a brand as well as the learning material.</p>
+        </div>
+
+       </div>
+
+<!--
+
+      <div class="row mt-100 mb-0" id="work" style="border-top: 1px solid #EFEFEF;">
+        <div class="col-12 text-center">
+          <h1 class="mt-100">Work</h1>
+          <h2 class="mb-50">Some of the work we've done for brands before.</h2>
+        </div>
+      </div>
+
+      <div class="row pb-100" style="border-bottom: 1px solid #EFEFEF; ">
+        <div class="col-3 text-left pl-50 pr-50"></div>
+        <div class="col-6">
+          <div class="flexslider">
+            <ul class="slides">
+
+              <li><img src="images/work/casino/06.jpg" /><p class="flex-caption text-center">Dimension Data casino game</p></li>
+              <li><img src="images/work/casino/05.jpg" /><p class="flex-caption text-center">Dimension Data casino game</p></li>
+              <li><img src="images/work/casino/04.jpg" /><p class="flex-caption text-center">Dimension Data casino game</p></li>
+              <li><img src="images/work/casino/03.jpg" /><p class="flex-caption text-center">Dimension Data casino game</p></li>
+              <li><img src="images/work/casino/02.jpg" /><p class="flex-caption text-center">Dimension Data casino game</p></li>
+              <li><img src="images/work/casino/01.jpg" /><p class="flex-caption text-center">Dimension Data casino game</p></li>
+
+                <li><img src="images/work/sab/04.jpg"/><p class="flex-caption text-center">SAB Interactive map</p></li>
+                <li><img src="images/work/sab/03.jpg"/><p class="flex-caption text-center">SAB Interactive map</p></li>
+                <li><img src="images/work/sab/02.jpg"/><p class="flex-caption text-center">SAB Interactive map</p></li>
+                <li><img src="images/work/sab/01.jpg"/><p class="flex-caption text-center">SAB Interactive map</p></li>
+
+                <li><img src="images/work/sentinals/13.jpg" /><p class="flex-caption text-center">Dimension Data Sentinals HTML5 Multiplayer game</p></li>
+                <li><img src="images/work/sentinals/12.jpg" /><p class="flex-caption text-center">Dimension Data Sentinals HTML5 Multiplayer game</p></li>
+                <li><img src="images/work/sentinals/09.jpg" /><p class="flex-caption text-center">Dimension Data Sentinals HTML5 Multiplayer game</p></li>
+                <li><img src="images/work/sentinals/08.jpg" /><p class="flex-caption text-center">Dimension Data Sentinals HTML5 Multiplayer game</p></li>
+                <li><img src="images/work/sentinals/07.jpg" /><p class="flex-caption text-center">Dimension Data Sentinals HTML5 Multiplayer game</p></li>
+                <li><img src="images/work/sentinals/05.jpg" /><p class="flex-caption text-center">Dimension Data Sentinals HTML5 Multiplayer game</p></li>
+                <li><img src="images/work/sentinals/04.jpg" /><p class="flex-caption text-center">Dimension Data Sentinals HTML5 Multiplayer game</p></li>
+                <li><img src="images/work/sentinals/01.jpg" /><p class="flex-caption text-center">Dimension Data Sentinals HTML5 Multiplayer game</p></li>
+
+                <li><img src="images/work/eyedrills/13.jpg" /><p class="flex-caption text-center">Eyedrills training system</p></li>
+                <li><img src="images/work/eyedrills/07.jpg" /><p class="flex-caption text-center">Eyedrills training system</p></li>
+                <li><img src="images/work/eyedrills/05.jpg" /><p class="flex-caption text-center">Eyedrills training system</p></li>
+                <li><img src="images/work/eyedrills/04.jpg" /><p class="flex-caption text-center">Eyedrills training system</p></li>
+                <li><img src="images/work/eyedrills/03.jpg" /><p class="flex-caption text-center">Eyedrills training system</p></li>
+                <li><img src="images/work/eyedrills/02.jpg" /><p class="flex-caption text-center">Eyedrills training system</p></li>
+                <li><img src="images/work/eyedrills/01.jpg" /><p class="flex-caption text-center">Eyedrills training system</p></li>
+
+            </ul>
+          </div>
+        </div>
+        <div class="col-3 text-left pl-50 pr-50"></div>
+      </div>
+
+-->
+
+      <!-- Contact us -->
+      <div class="row dark pt-100" id="contact">
+        <div class="col-4"></div>
+        <div class="col-4 text-center">
+          <h1>Request a Demo</h1>
+          <p class="pb-50">Enter your details and let us help bring your learning material to life.</p>
+          <form action="mail.php" method="POST">
+            <div class="form-group">
+              <input type="text" class="form-control" id="formGroupExampleInput" placeholder="Name" name="name">
+            </div>
+            <div class="form-group">
+              <input type="text" class="form-control" id="formGroupExampleInput" placeholder="Contact" name="contact">
+            </div>
+            <div class="form-group">
+              <input type="text" class="form-control" id="formGroupExampleInput" placeholder="Email" name="email">
+            </div>
+            <div class="form-group">
+              <textarea class="form-control" id="exampleTextarea" rows="3" name="query"></textarea>
+            </div>
+            <button class="mb-100">Contact us</button>
+            <h5 class="mt-10 mb-50">Playfirst &copy; 2018 Please email <a href="mailto:hello@omari.studio">this address</a> for any other queries.</h5>
+          </form>
+        </div>
+        <div class="col-4"></div>
+      </div>
+    </div>
+  </body>
+</html>

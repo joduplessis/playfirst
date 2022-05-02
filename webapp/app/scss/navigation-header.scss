@@ -1,0 +1,63 @@
+
+
+    .navigation-header {
+      background: #E11571;
+      border: 0px;
+      position: relative;
+      top: -1px;
+    }
+
+    .navigation-header h1 {
+      font-family: 'Roboto Slab', serif;
+      font-weight: 200;
+      font-size: 40px;
+      color: white;
+      position: relative;
+      padding: 20px;
+      padding-left: 0px;
+      padding-right: 0px;
+    }
+
+    .navigation-header h1 span.subtext {
+      font-size: 8px;
+      position: absolute;
+      bottom: 5px;
+      opacity: 0.5;
+      text-transform: uppercase;
+      left: 0px;
+    }
+
+    .navigation-header h1 ul {
+      float: right;
+      width: auto;
+      position: relative;
+      top: -3px;
+    }
+
+      .navigation-header h1 ul li {
+        float: right;
+        margin-left: 20px;
+      }
+
+        .navigation-header h1 ul li a,
+        .navigation-header h1 ul li button {
+          color: white;
+          cursor: pointer;
+          outline: none;
+          font-weight: 500;
+          font-size: 10px;
+          border: none;
+          background: none;
+          padding: 0px;
+          margin: 0px;
+          text-decoration: none;
+          text-transform: uppercase;
+          font-family: 'Ubuntu', sans-serif;
+        }
+
+          .navigation-header h1 ul li a span,
+          .navigation-header h1 ul li button span {
+            color: white;
+            font-weight: 500;
+            font-size: 10px;
+          }

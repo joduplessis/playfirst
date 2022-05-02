@@ -1,0 +1,30 @@
+
+ul.breadcrumbs {
+  margin: 0px;
+  padding: 0px;
+  margin-top: 10px;
+}
+
+ul.breadcrumbs li {
+  float: left;
+  font-family: 'Ubuntu', sans-serif;
+  font-weight: 200;
+  color: #9FACBD;
+  position: relative;
+  padding-bottom: 10px;
+  padding-top: 10px;
+  font-size: 13px;
+  text-transform: uppercase;
+  padding: 3px;
+}
+
+ul.breadcrumbs li a {
+  font-family: 'Ubuntu', sans-serif;
+  font-weight: 200;
+  color: #9FACBD;
+  position: relative;
+  padding-bottom: 10px;
+  padding-top: 10px;
+  font-size: 11px;
+  text-transform: uppercase;
+}

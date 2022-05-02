@@ -1,0 +1,362 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    list-style-type: none;
+    outline: none;
+}
+
+body {
+}
+
+.flex-direction-nav {
+   display:none;
+}
+
+/* Main image at the top */
+
+.jumbotron {
+    background: #fff url('../images/backdrop.jpg') no-repeat center center;
+    background-size: cover;
+    overflow: hidden;
+    position: relative;
+    margin-top: 100px;
+}
+
+    .jumbotron .content {
+        position: relative;
+        z-index: 3;
+    }
+
+    .jumbotron .video-container {
+        position: absolute;
+        top: 0px;
+        left: 0px;
+        overflow: hidden;
+        width: 100%;
+        height: 100%;
+        z-index: 1;
+    }
+
+        .jumbotron .video-container video {
+            position: absolute;
+            top: -50px;
+            bottom: 0px;
+            width: 100%;
+            height: auto;
+        }
+
+    .jumbotron .video-overlay {
+        position: absolute;
+        top: 0px;
+        left: 0px;
+        background: black;
+        opacity: 0.85;
+        overflow: hidden;
+        width: 100%;
+        height: 100%;
+        z-index: 2;
+    }
+
+  .jumbotron h1 {
+      font-family: 'Roboto Slab', serif;
+      font-weight: 200;
+      color: #ffffff;
+  }
+
+  .jumbotron h2 {
+      font-family: 'Ubuntu', sans-serif;
+      font-weight: 200;
+      color: #BF335B;
+  }
+
+  .jumbotron button {
+      padding: 20px 30px 20px 30px;
+      border-radius: 3px;
+      cursor: pointer;
+      color: #fff;
+      background: #BF335B;
+      text-transform: uppercase;
+      font-size: 11px;
+      font-family: 'Ubuntu', sans-serif;
+      font-weight: 600;
+      border: 0px;
+  }
+
+/* Top navigation */
+
+.navbar {
+    background: white;
+    height: 100px;
+    position: fixed;
+    top: 0px;
+    width: 100%;
+    z-index: 9;
+    border-bottom: 1px solid #EFEFEF;
+}
+
+  .navbar a.nav-link {
+      color: #324463;
+      font-weight: 500;
+      letter-spacing: 0.5px;
+      font-size: 11px;
+      font-family: 'Ubuntu', sans-serif;
+      text-transform: uppercase;
+  }
+
+    .navbar a.nav-link.dark {
+      color: #BF335B;
+    }
+
+  .navbar a.nav-link.special {
+      color: #8BA2BE;
+      font-family: 'Ubuntu', sans-serif;
+      border-radius: 2px;
+      text-transform: uppercase;
+      font-size: 10px;
+      position: relative;
+      top: 0px;
+      border: 1px solid #8BA2BE;
+      margin-right: 20px;
+  }
+
+    .navbar a.nav-link.special:hover {
+        background: #8BA2BE;
+        color: white;
+    }
+
+  .navbar a.logo {
+
+  }
+
+  .navbar a.logo span {
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 400;
+    letter-spacing: -0.5px;
+    font-size: 18px;
+    color: #324463;
+    text-decoration: none;
+    position: relative;
+    left: 5px;
+  }
+
+  .navbar a.logo img {
+      height: 20px;
+      width: auto;
+      position: relative;
+      top: -2px;
+  }
+
+/* Typography */
+
+.row h1 {
+    font-family: 'Roboto Slab', serif;
+    font-weight: 300;
+    font-size: 40px;
+    color: #BF335B;
+}
+
+.row h1.smaller {
+  font-size: 30px;
+}
+
+.row h1 sup {
+  font-size: 10px;
+  position: relative;
+  left: 0px;
+  top: -20px;
+  letter-spacing: -0px;
+  font-weight: 800;
+  color: #BF335B;
+  opacity: 0.5;
+  text-transform: uppercase;
+  font-family: 'Ubuntu', sans-serif;
+}
+
+.row h2 {
+    color: #324463;
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 200;
+    font-size: 20px;
+}
+
+.row h3 {
+    color: #324463;
+    font-family: 'Roboto Slab', serif;
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+}
+
+.row h4 {
+    color: #324463;
+    font-family: 'Roboto Slab', serif;
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 500;
+    font-size: 15px;
+}
+
+.row h5 {
+    color: #8BA2BE;
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 300;
+    font-size: 15px;
+}
+
+.row p {
+    color: #8BA2BE;
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 300;
+    font-size: 14px;
+}
+
+.row a {
+    color: #BF335B;
+}
+
+.row span.fa {
+    color: #BF335B;
+    font-size: 30px;
+}
+
+.row button {
+    padding: 20px 30px 20px 30px;
+    border-radius: 3px;
+    cursor: pointer;
+    color: #fff;
+    background: #BF335B;
+    text-transform: uppercase;
+    font-size: 11px;
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 600;
+    border: 0px;
+}
+
+  .row.dark { background: #302736; }
+  .row.dark h1 { color: #BF335B; }
+  .row.dark h2 { color: white; }
+  .row.dark h3 { color: #BF335B; font-weight: normal; font-size: 15px;}
+  .row.dark h4 { color: #c7bbc6; font-weight: normal; font-size: 12px;}
+  .row.dark h5 { color: #c7bbc6; font-size: 10px; font-family: 'Ubuntu', sans-serif; }
+  .row.dark h5 a { text-transform: none;}
+  .row.dark p { color: #c7bbc6; }
+  .row.dark a { color: white; }
+  .row.dark span.fa { color: #BF335B; }
+
+/* Flex slider */
+
+.flex-caption {
+  width: 100%;
+  left: 0;
+  bottom: 0;
+  font-size: 14px;
+  position: relative;
+  top: 20px;
+}
+
+  @media(max-width: 1080px) {
+    .jumbotron h1 { font-size: 30px; }
+    .jumbotron h2 { font-size: 20px; }
+  }
+
+  @media(max-width: 875px) {
+    .jumbotron h1 { font-size: 25px; }
+    .jumbotron h2 { font-size: 18px; }
+    .row .col-6 { margin: 0px; padding: 20px;width: 100%; min-width: 100%; max-width: 100% !important; clear: both; }
+    .row .col-3 { margin: 0px; padding: 20px;width: 50%; min-width: 50%; max-width: 50% !important; clear: both; }
+    .row .col-4 { margin: 0px; padding: 20px;width: 100%; min-width: 100%; max-width: 100% !important; clear: both; }
+    .jumbotron .video-container video { display: none; }
+  }
+
+@media(max-width: 400px) {
+    .row .col-3 { margin: 0px; padding: 20px;width: 100%; min-width: 100%; max-width: 100% !important; clear: both; }
+    .row .col-4 { margin: 0px; padding: 20px;width: 100%; min-width: 100%; max-width: 100% !important; clear: both; }
+}
+
+
+.mt-10 { margin-top: 10px; }
+.mt-20 { margin-top: 20px; }
+.mt-30 { margin-top: 30px; }
+.mt-40 { margin-top: 40px; }
+.mt-50 { margin-top: 50px; }
+.mt-60 { margin-top: 60px; }
+.mt-70 { margin-top: 70px; }
+.mt-80 { margin-top: 80px; }
+.mt-90 { margin-top: 90px; }
+.mt-100 { margin-top: 100px; }
+
+.pt-10 { padding-top: 10px; }
+.pt-20 { padding-top: 20px; }
+.pt-30 { padding-top: 30px; }
+.pt-40 { padding-top: 40px; }
+.pt-50 { padding-top: 50px; }
+.pt-60 { padding-top: 60px; }
+.pt-70 { padding-top: 70px; }
+.pt-80 { padding-top: 80px; }
+.pt-90 { padding-top: 90px; }
+.pt-100 { padding-top: 100px; }
+
+.mb-10 { margin-bottom: 10px; }
+.mb-20 { margin-bottom: 20px; }
+.mb-30 { margin-bottom: 30px; }
+.mb-40 { margin-bottom: 40px; }
+.mb-50 { margin-bottom: 50px; }
+.mb-60 { margin-bottom: 60px; }
+.mb-70 { margin-bottom: 70px; }
+.mb-80 { margin-bottom: 80px; }
+.mb-90 { margin-bottom: 90px; }
+.mb-100 { margin-bottom: 100px; }
+
+.pb-10 { padding-bottom: 10px; }
+.pb-20 { padding-bottom: 20px; }
+.pb-30 { padding-bottom: 30px; }
+.pb-40 { padding-bottom: 40px; }
+.pb-50 { padding-bottom: 50px; }
+.pb-60 { padding-bottom: 60px; }
+.pb-70 { padding-bottom: 70px; }
+.pb-80 { padding-bottom: 80px; }
+.pb-90 { padding-bottom: 90px; }
+.pb-100 { padding-bottom: 100px; }
+
+.ml-10 { margin-left: 10px; }
+.ml-20 { margin-left: 20px; }
+.ml-30 { margin-left: 30px; }
+.ml-40 { margin-left: 40px; }
+.ml-50 { margin-left: 50px; }
+.ml-60 { margin-left: 60px; }
+.ml-70 { margin-left: 70px; }
+.ml-80 { margin-left: 80px; }
+.ml-90 { margin-left: 90px; }
+.ml-100 { margin-left: 100px; }
+
+.pl-10 { padding-left: 10px; }
+.pl-20 { padding-left: 20px; }
+.pl-30 { padding-left: 30px; }
+.pl-40 { padding-left: 40px; }
+.pl-50 { padding-left: 50px; }
+.pl-60 { padding-left: 60px; }
+.pl-70 { padding-left: 70px; }
+.pl-80 { padding-left: 80px; }
+.pl-90 { padding-left: 90px; }
+.pl-100 { padding-left: 100px; }
+
+.mr-10 { margin-right: 10px; }
+.mr-20 { margin-right: 20px; }
+.mr-30 { margin-right: 30px; }
+.mr-40 { margin-right: 40px; }
+.mr-50 { margin-right: 50px; }
+.mr-60 { margin-right: 60px; }
+.mr-70 { margin-right: 70px; }
+.mr-80 { margin-right: 80px; }
+.mr-90 { margin-right: 90px; }
+.mr-100 { margin-right: 100px; }
+
+.pr-10 { padding-right: 10px; }
+.pr-20 { padding-right: 20px; }
+.pr-30 { padding-right: 30px; }
+.pr-40 { padding-right: 40px; }
+.pr-50 { padding-right: 50px; }
+.pr-60 { padding-right: 60px; }
+.pr-70 { padding-right: 70px; }
+.pr-80 { padding-right: 80px; }
+.pr-90 { padding-right: 90px; }
+.pr-100 { padding-right: 100px; }

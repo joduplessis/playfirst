@@ -1,0 +1,88 @@
+
+
+.navigation {
+    margin: 0px;
+    position :relative;
+    overflow: hidden;
+    background: white;
+    height: 75px;
+    border-bottom: 1px solid #E6E9EC;
+}
+
+    .navigation a.logo {
+        padding: 0px;
+        text-align: left;
+        position: relative;
+        top: 30px;
+        margin: 0px;
+        left: -15px;
+    }
+
+    .navigation a.logo span {
+      color: #324463;
+      margin: 0px;
+      padding: 0px;
+      font-weight: 400;
+      position: relative;
+      top: 2px;
+    }
+
+      .navigation a.logo:hover{
+        text-decoration: none;
+      }
+
+    .navigation a.logo img {
+        height: 20px;
+        width: auto;
+    }
+
+    .navigation ul.menu.primary {
+      position: absolute;
+      bottom: 0px;
+      right: 0px;
+      display: block;
+      padding: 0px;
+      margin: 0px;
+    }
+
+    .navigation ul.menu.secondary {
+      position: absolute;
+      top: 10px;
+      right: 0px;
+      display: block;
+      padding: 0px;
+      margin: 0px;
+    }
+
+    .navigation ul.menu.secondary li,
+      .navigation ul.menu.primary li {
+        padding: 0px;
+        float: right;
+        margin-left: 20px;
+      }
+
+    .navigation ul.menu.secondary li a {
+        color: #D8E1E9;
+        font-size: 11px;
+        display:block;
+        font-weight: 400;
+    }
+
+    .navigation ul.menu.primary li a {
+        color: #9FACBD;
+        font-size: 13px;
+        display:block;
+        font-weight: 400;
+        padding-bottom: 10px;
+    }
+
+    .navigation ul.menu li a span.fa {
+        color: #D8E1E9;
+        margin-right: 5px;
+        width: 15px;
+        font-size: 11px;
+    }
+
+    .navigation ul.menu li a:hover { opacity: 0.9; text-decoration: none;}
+    .navigation ul.menu li a.selected { color: #E11571; font-weight: 600; border-bottom: 2px solid #E11571;}
+    .navigation ul.menu li a.selected span.fa { color:white; }

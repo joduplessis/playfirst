@@ -1,0 +1,75 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    list-style-type: none;
+    border: 0px;
+    text-decoration: none;
+    font-family: 'Ubuntu', 'Roboto', sans-serif;
+    outline: none;
+    font-weight: 500;
+}
+
+canvas {
+    -moz-user-select: none;
+    -webkit-user-select: none;
+    -ms-user-select: none;
+}
+
+html, body {
+    height: 100%;
+}
+
+body {
+    width: 100%;
+    position: relative;
+    background-color: #F6F6F7;
+}
+
+label {
+  font-size: 11px;
+  color: #D8E1E9;
+}
+
+.alert {
+  font-size: 14px;
+  font-weight: 300;
+}
+
+
+
+main .alert {
+    color: #aaa;
+    font-size:18px;
+    position: relative;
+    font-weight: 200;
+    width: 100%;
+    display: block;
+    clear: both;
+    background: white;
+    float: none;
+}
+
+    main .alert p {
+        padding: 10px;
+        margin: 5px;
+        border-radius: 3px;
+        color: white;
+        font-size: 11px;
+        background: #E84556;
+    }
+
+    main .alert p span { color: white; margin-right: 5px; }
+
+@import 'margins-paddings';
+@import 'dashboard';
+@import 'login';
+@import 'modals';
+@import 'nodes';
+@import 'navigation';
+@import 'navigation-header';
+@import 'charts';
+@import 'grid';
+@import 'grid-list-group';
+@import 'breadcrumbs';
+@import 'footer';
+@import 'forms';

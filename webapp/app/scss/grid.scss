@@ -1,0 +1,133 @@
+.grid {
+  margin-top: 20px;
+}
+
+  .grid .inner {
+    background: white;
+  }
+
+  .grid .col-2 {
+    height: 100%;
+  }
+
+  .grid h1 {
+    margin: 0px;
+    padding: 0px;
+    font-size: 30px;
+    color: #E11571;
+    font-family: 'Roboto Slab', serif;
+    font-weight: 200;
+  }
+
+  .grid h1 a {
+    font-family: 'Roboto Slab', serif;
+    font-weight: 200;
+    display: block;
+    width: auto;
+    font-size: 30px;
+    color: #E11571;
+    position: relative;
+    padding: 10px;
+    height: auto;
+    overflow: hidden;
+    margin: 0px;
+  }
+
+    .grid h1 a:hover {
+      text-decoration: none;
+      opacity: 0.8;
+    }
+
+  .grid h2 {
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 200;
+    font-size: 16px;
+    color: #9FACBD;
+    position: relative;
+    padding: 10px;
+    padding-top: 0px;
+    height: 60px;
+    overflow: hidden;
+  }
+
+  .grid button.btn,
+  .grid a.btn {
+    color:white;
+    background: #E11571;
+    border: 0;
+    display: inline-block;
+    padding: 10px;
+    width: auto;
+    cursor: pointer;
+  }
+
+  .grid button.btn span.fa,
+  .grid a.btn span.fa {
+    color: white;
+  }
+
+  .grid a.footer {
+    font-size: 10px;
+    color: #E11571;
+    border: 0;
+    display: inline-block;
+    padding: 10px;
+    width: auto;
+  }
+
+    .grid a.footer span.fa {
+      color: #E11571;
+    }
+
+  .grid p.images {
+    padding-left: 10px;
+    background: none;
+  }
+
+    .grid .inner p.images img {
+      border: 2px solid #D8E1E9;
+    }
+
+  .grid span.progress-background {
+      background: white;
+      position: relative;
+      display: inline-block;
+      height: 3px;
+      width: 100%;
+      top: 5px;
+      overflow: hidden;
+  }
+
+  .grid span.progress-background .active {
+      background: #0AA3E0;
+      position: absolute;
+      height: 3px;
+      left: 0px;
+      top: 0px;
+  }
+
+  .grid a.delete-button {
+    color: #D8E1E9;
+    position: relative;
+  }
+
+  .grid .title {
+    margin: 0px;
+    padding: 0px;
+    font-size: 20px;
+    color: #324463;
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 200;
+    margin-right: 10px;
+    text-decoration: none;
+  }
+
+    .grid a.title:hover {
+      opacity: 0.7;
+    }
+
+  .grid .description {
+    color: #9FACBD;
+    font-size: 13px;
+    font-weight: 400;
+  }
