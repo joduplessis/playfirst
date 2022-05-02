@@ -1,4 +1,4 @@
 > Coming soon
 
-https://github.com/joduplessis/playfirst
+https://joduplessis.com/playfirst/
 https://joduplessis.com/work/playfirst
